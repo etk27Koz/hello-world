@@ -64,7 +64,7 @@ p {
 
 /* BULLET POINTS */
 ul {
-    display: inline-block;
+    display: block;
     width: 100%;
     max-width: 100%;
     background: #f2f7fd;
