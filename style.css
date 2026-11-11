@@ -115,34 +115,42 @@ h3 {
     width: 85%;
     margin: 15px auto;
     background-color: #f0f5fc;
-    border-left: 5px solid #468ed1;
-    border-right: 5px solid #468ed1;
+    border: 2px solid #468ed1;
     border-radius: 6px;
-    padding: 15px 25px;
-    border-collapse: separate;
-    border-spacing: 0 8px;
+    border-collapse: collapse;
     color: #28384f;
 }
 
 .skills-table th {
+    background-color: #174477;
+    color: white;
     text-align: center;
     font-size: 17px;
-    padding: 10px;
-    color: #174477;
-    border-bottom: 2px solid #b9d8f5;
+    padding: 12px;
+    border: 1px solid #ffffff;
 }
 
 .skills-table td {
     text-align: left;
     font-size: 15px;
     padding: 12px;
-    border-bottom: 1px solid #b9d8f5;
+    border: 1px solid #b9d8f5;
 }
 
+/* SKILL COLUMN */
 .skills-table td:first-child {
     font-weight: bold;
     color: #174477;
     width: 30%;
+    background-color: #dceafa;
+    border-right: 3px solid #468ed1;
+}
+
+/* DESCRIPTION COLUMN */
+.skills-table td:last-child {
+    width: 70%;
+    background-color: #f8fbff;
+    padding-left: 18px;
 }
 
 /* MOBILE DISPLAY */
