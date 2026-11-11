@@ -11,14 +11,14 @@ style.css
 /* WHOLE PAGE */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #edf3fa;
+   
     color: #334155;
     width: calc(100% - 40px);
     max-width: 900px;
     margin: 40px auto;
     padding: 45px 55px;
     background-color: #ffffff;
- 
+    border-top: 8px solid #174477;
     border-radius: 12px;
     box-shadow: 0 5px 25px rgba(0, 40, 90, 0.12);
     line-height: 1.7;
