@@ -1,44 +1,127 @@
 style.css
 
+/* ===== GENERAL PAGE DESIGN ===== */
 
+* {
+    box-sizing: border-box;
+}
 
-/* Centre the entire CV */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0 auto;
-    padding: 30px;
-    max-width: 1000px;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f5fb;
+    color: #334155;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.7;
 }
 
-/* Main heading */
+/* ===== MAIN CV CONTAINER ===== */
+
+body {
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 50px 65px;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(20, 50, 90, 0.10);
+    border-top: 8px solid #174477;
+}
+
+/* ===== NAME AND TITLE ===== */
+
 h1 {
-    color: #1e3a5f;
+    color: #12345a;
+    font-size: 38px;
     text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
 }
 
-/* Section headings */
-h2, h3 {
+h3 {
+    color: #5285b9;
+    font-size: 19px;
     text-align: center;
-    color: #1e3a5f;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
-/* Centre lists */
-ul {
-    display: inline-block;
-    text-align: left;
-    padding-left: 25px;
-}
+/* ===== SECTION HEADINGS ===== */
 
-/* Paragraphs */
-p {
-    text-align: center;
-    line-height: 1.6;
-}
-
-/* Add spacing between sections */
 h2 {
-    margin-top: 35px;
+    color: #174477;
+    font-size: 21px;
+    text-align: left;
+    border-bottom: 2px solid #b9d8f5;
+    padding-bottom: 9px;
+    margin-top: 38px;
+    margin-bottom: 18px;
+}
+
+/* ===== PARAGRAPHS ===== */
+
+p {
+    font-size: 15px;
+    color: #475569;
+    margin-bottom: 15px;
+}
+
+/* ===== BULLET POINTS ===== */
+
+ul {
+    background-color: #f3f8fd;
+    border-left: 4px solid #4389c9;
+    border-radius: 7px;
+    padding: 18px 25px 18px 45px;
+    margin: 15px 0 25px;
+}
+
+li {
+    font-size: 15px;
+    padding: 3px 0;
+    color: #334155;
+}
+
+li::marker {
+    color: #367dbb;
+}
+
+/* ===== CONTACT DETAILS ===== */
+
+h2:last-of-type {
+    margin-top: 40px;
+}
+
+p:last-of-type {
+    margin-bottom: 8px;
+}
+
+/* ===== HOVER EFFECTS ===== */
+
+ul:hover {
+    background-color: #eaf3fc;
+    transition: 0.3s ease;
+}
+
+/* ===== MOBILE RESPONSIVE DESIGN ===== */
+
+@media screen and (max-width: 650px) {
+
+    body {
+        margin: 10px;
+        padding: 25px 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
 }
