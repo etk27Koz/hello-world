@@ -1,0 +1,32 @@
+Style.css
+
+
+body {
+    background-color: lightgrey;
+    font-family: Arial;
+    color: black;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+    Background-color: dark grey:
+}
+
+h2 {
+    color: white;
+    Background-color: dark grey:
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
