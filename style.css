@@ -125,3 +125,92 @@ p {
         font-size: 14px;
     }
 }
+
+/* RESPONSIVE DESIGN */
+
+/* Make sizing consistent */
+* {
+    box-sizing: border-box;
+}
+
+/* Keep the page within the screen */
+body {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Keep information boxes responsive */
+.info-box {
+    width: 85%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .info-box {
+        width: 95%;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+/* MOBILE PHONES */
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    .info-box {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 15px auto;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 14px;
+        overflow-wrap: break-word;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+}
