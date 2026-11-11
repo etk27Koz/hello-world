@@ -78,6 +78,7 @@ li {
     text-align: left;
     font-size: 15px;
     padding: 3px 0;
+    max-width: 500px
 }
 
 /* BULLET COLOUR */
