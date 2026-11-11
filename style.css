@@ -1,120 +1,104 @@
 style.css
 
-/* ===== GENERAL PAGE DESIGN ===== */
 
+/* RESET */
 * {
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f1f5fb;
-    color: #334155;
     margin: 0;
-    padding: 40px 20px;
-    line-height: 1.7;
+    padding: 0;
 }
 
-/* ===== MAIN CV CONTAINER ===== */
-
+/* WHOLE PAGE */
 body {
-    max-width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf3fa;
+    color: #334155;
+    width: calc(100% - 40px);
+    max-width: 900px;
     margin: 40px auto;
+    padding: 45px 55px;
     background-color: #ffffff;
-    padding: 50px 65px;
-    border-radius: 14px;
-    box-shadow: 0 8px 30px rgba(20, 50, 90, 0.10);
     border-top: 8px solid #174477;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 40, 90, 0.12);
+    line-height: 1.7;
+    text-align: left;
 }
 
-/* ===== NAME AND TITLE ===== */
-
+/* NAME */
 h1 {
-    color: #12345a;
-    font-size: 38px;
     text-align: center;
+    color: #12345a;
+    font-size: 36px;
     margin-bottom: 5px;
-    letter-spacing: 1px;
 }
 
+/* STUDENT CV */
 h3 {
+    text-align: center;
     color: #5285b9;
     font-size: 19px;
-    text-align: center;
-    font-weight: 500;
-    margin-top: 0;
     margin-bottom: 35px;
 }
 
-/* ===== SECTION HEADINGS ===== */
-
+/* SECTION HEADINGS */
 h2 {
+    text-align: left;
     color: #174477;
     font-size: 21px;
-    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
     border-bottom: 2px solid #b9d8f5;
-    padding-bottom: 9px;
-    margin-top: 38px;
-    margin-bottom: 18px;
 }
 
-/* ===== PARAGRAPHS ===== */
-
+/* PARAGRAPHS */
 p {
+    text-align: left;
     font-size: 15px;
     color: #475569;
     margin-bottom: 15px;
 }
 
-/* ===== BULLET POINTS ===== */
-
+/* BULLET POINTS */
 ul {
-    background-color: #f3f8fd;
+    display: block;
+    width: 100%;
+    background: #f2f7fd;
     border-left: 4px solid #4389c9;
-    border-radius: 7px;
+    border-radius: 6px;
     padding: 18px 25px 18px 45px;
     margin: 15px 0 25px;
+    text-align: left;
 }
 
+/* LIST ITEMS */
 li {
+    text-align: left;
     font-size: 15px;
     padding: 3px 0;
-    color: #334155;
 }
 
+/* BULLET COLOUR */
 li::marker {
-    color: #367dbb;
+    color: #4389c9;
 }
 
-/* ===== CONTACT DETAILS ===== */
-
-h2:last-of-type {
-    margin-top: 40px;
+/* CONTACT DETAILS */
+p {
+    overflow-wrap: anywhere;
 }
 
-p:last-of-type {
-    margin-bottom: 8px;
-}
-
-/* ===== HOVER EFFECTS ===== */
-
-ul:hover {
-    background-color: #eaf3fc;
-    transition: 0.3s ease;
-}
-
-/* ===== MOBILE RESPONSIVE DESIGN ===== */
-
-@media screen and (max-width: 650px) {
-
+/* MOBILE DISPLAY */
+@media (max-width: 600px) {
     body {
-        margin: 10px;
+        width: calc(100% - 20px);
+        margin: 10px auto;
         padding: 25px 20px;
-        border-radius: 10px;
     }
 
     h1 {
-        font-size: 29px;
+        font-size: 28px;
     }
 
     h2 {
