@@ -72,8 +72,8 @@ ul {
     padding: 18px 25px 18px 45px;
     margin: 15px 0 25px;
     text-align: left;
-}
-
+    padding-right: 50px;
+    
 /* LIST ITEMS */
 li {
     text-align: left;
