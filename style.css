@@ -61,26 +61,33 @@ p {
     margin-bottom: 15px;
 }
 
+
 /* BULLET POINTS */
 ul {
-    display: block;
-    width: auto;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
     background: #f2f7fd;
+
     border-left: 4px solid #4389c9;
     border-right: 4px solid #4389c9;
+
     border-radius: 6px;
-    padding: 18px 25px 18px 45px;
+
+    padding: 18px 30px 18px 45px;
     margin: 15px 0 25px;
+
     text-align: left;
-    padding-right: 50px;
-    
+    vertical-align: top;
+}
+
 /* LIST ITEMS */
 li {
     text-align: left;
     font-size: 15px;
     padding: 3px 0;
-    max-width: 500px
 }
+
 
 /* BULLET COLOUR */
 li::marker {
