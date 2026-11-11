@@ -65,15 +65,12 @@ p {
 ul {
     display: block;
     width: auto;
-    min-width: 280px:
-    max-width: 100%;
     background: #f2f7fd;
     border-left: 4px solid #4389c9;
     border-right: 4px solid #4389c9;
     border-radius: 6px;
     padding: 18px 25px 18px 45px;
     margin: 15px 0 25px;
-    length: 200px;
     text-align: left;
 }
 
