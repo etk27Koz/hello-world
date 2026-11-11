@@ -11,7 +11,7 @@ style.css
 /* WHOLE PAGE */
 body {
     font-family: Arial, Helvetica, sans-serif;
-   
+    background: #edf3fa;  
     color: #334155;
     width: calc(100% - 40px);
     max-width: 900px;
