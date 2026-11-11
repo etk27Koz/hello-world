@@ -112,7 +112,7 @@ h3 {
 }
 
 .skills-table {
-    width: 70%;
+    width: 85%;
     margin: 15px auto;
     background-color: #f0f5fc;
     border-left: 5px solid #468ed1;
@@ -129,13 +129,20 @@ h3 {
     font-size: 17px;
     padding: 10px;
     color: #174477;
+    border-bottom: 2px solid #b9d8f5;
 }
 
 .skills-table td {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    padding: 8px;
+    padding: 12px;
     border-bottom: 1px solid #b9d8f5;
+}
+
+.skills-table td:first-child {
+    font-weight: bold;
+    color: #174477;
+    width: 30%;
 }
 
 /* MOBILE DISPLAY */
