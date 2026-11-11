@@ -64,14 +64,14 @@ p {
 /* BULLET POINTS */
 ul {
     display: block;
-    width: fit-content;
-    max-width: 100%;
+    width: auto;
     background: #f2f7fd;
     border-left: 4px solid #4389c9;
     border-right: 4px solid #4389c9;
     border-radius: 6px;
     padding: 18px 25px 18px 45px;
     margin: 15px 0 25px;
+    padding-right: 10px;
     text-align: left;
 }
 
